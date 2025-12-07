@@ -1,0 +1,5 @@
+com\example\discord_web_bot\DiscordWebBotApplication.class
+com\example\discord_web_bot\config\RestTemplateConfig.class
+com\example\discord_web_bot\dto\DiscordMessageRequest.class
+com\example\discord_web_bot\controller\DiscordController.class
+com\example\discord_web_bot\service\DiscordWebhookService.class
