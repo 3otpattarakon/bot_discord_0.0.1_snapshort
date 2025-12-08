@@ -19,6 +19,7 @@ public class DiscordController {
 	@PostMapping("/message")
 	public ResponseEntity<?> postMessage(@RequestBody DiscordMessageRequest request) {
 		if (request == null || request.getMessage() == null || request.getMessage().trim().isEmpty()) {
+			// comment
 			return ResponseEntity.badRequest().body("'message' is required in JSON body");
 		}
 		try {
